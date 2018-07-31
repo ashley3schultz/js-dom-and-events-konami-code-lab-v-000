@@ -1,6 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-function init() {
+function init(){
   let index = 0
   const doc = document.querySelector('body')
   doc.addEventListener('keydown', keydown)
@@ -15,5 +15,5 @@ function init() {
     } else {
       index = 0
     }
-  })
+  }
 }
